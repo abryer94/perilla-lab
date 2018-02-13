@@ -1,629 +1,555 @@
 colvar { 
 	 name distance:17-33
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CD 17-17} 
-		 group2 {atomNameResidueRange CA 33-33} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD 17-17 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 33-33 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:17-17
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:37-32
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 37-37} 
-		 group2 {atomNameResidueRange CA 32-32} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 37-37 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 32-32 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:37-37
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:2-177
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 2-2} 
-		 group2 {atomNameResidueRange CA 177-177} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 2-2 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 177-177 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:2-2
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:135-10
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 135-135} 
-		 group2 {atomNameResidueRange CA 10-10} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 135-135 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 10-10 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:135-135
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:69-160
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 69-69} 
-		 group2 {atomNameResidueRange CD 160-160} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 69-69 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD 160-160 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:69-69
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:129-130
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 129-129} 
-		 group2 {atomNameResidueRange CA 130-130} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 129-129 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 130-130 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:129-129
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:58-87
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 58-58} 
-		 group2 {atomNameResidueRange CG 87-87} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 58-58 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 87-87 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:58-58
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:10-136
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 10-10} 
-		 group2 {atomNameResidueRange C 136-136} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 10-10 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange C 136-136 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:10-10
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:89-172
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 89-89} 
-		 group2 {atomNameResidueRange C 172-172} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 89-89 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange C 172-172 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:89-89
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:91-8
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 91-91} 
-		 group2 {atomNameResidueRange CA 8-8} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 91-91 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 8-8 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:91-91
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:208-209
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 208-208} 
-		 group2 {atomNameResidueRange CA 209-209} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 208-208 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 209-209 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:208-208
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:96-97
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 96-96} 
-		 group2 {atomNameResidueRange CD 97-97} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 96-96 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD 97-97 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:96-96
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:202-85
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 202-202} 
-		 group2 {atomNameResidueRange CD 85-85} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 202-202 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD 85-85 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:202-202
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:220-69
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 220-220} 
-		 group2 {atomNameResidueRange C 69-69} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 220-220 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange C 69-69 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:220-220
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:136-120
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 136-136} 
-		 group2 {atomNameResidueRange CA 120-120} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 136-136 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 120-120 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:136-136
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:138-100
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 138-138} 
-		 group2 {atomNameResidueRange CA 100-100} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 138-138 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 100-100 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:138-138
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:72-157
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG2 72-72} 
-		 group2 {atomNameResidueRange CA 157-157} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG2 72-72 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 157-157 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:72-72
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:26-86
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 26-26} 
-		 group2 {atomNameResidueRange CA 86-86} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 26-26 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 86-86 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:26-26
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:73-32
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 73-73} 
-		 group2 {atomNameResidueRange CA 32-32} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 73-73 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 32-32 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:73-73
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:142-106
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 142-142} 
-		 group2 {atomNameResidueRange CA 106-106} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 142-142 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 106-106 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:142-142
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:85-172
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CD 85-85} 
-		 group2 {atomNameResidueRange C 172-172} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD 85-85 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange C 172-172 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:85-85
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:101-102
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 101-101} 
-		 group2 {atomNameResidueRange CA 102-102} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 101-101 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 102-102 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:101-101
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:151-15
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 151-151} 
-		 group2 {atomNameResidueRange CA 15-15} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 151-151 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 15-15 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:151-151
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:37-38
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 37-37} 
-		 group2 {atomNameResidueRange CA 38-38} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 37-37 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 38-38 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:37-37
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:46-20
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 46-46} 
-		 group2 {atomNameResidueRange C 20-20} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 46-46 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange C 20-20 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:46-46
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:43-2
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 43-43} 
-		 group2 {atomNameResidueRange CA 2-2} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 43-43 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 2-2 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:43-43
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:76-73
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CA 76-76} 
-		 group2 {atomNameResidueRange CA 73-73} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 76-76 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 73-73 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:76-76
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:20-17
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 20-20} 
-		 group2 {atomNameResidueRange CA 17-17} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 20-20 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 17-17 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:20-20
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:202-157
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 202-202} 
-		 group2 {atomNameResidueRange CA 157-157} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 202-202 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 157-157 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:202-202
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:126-11
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 126-126} 
-		 group2 {atomNameResidueRange CA 11-11} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 126-126 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 11-11 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:126-126
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:43-40
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 43-43} 
-		 group2 {atomNameResidueRange CA 40-40} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 43-43 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 40-40 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:43-43
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:221-73
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CB 221-221} 
-		 group2 {atomNameResidueRange CB 73-73} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 221-221 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CB 73-73 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:221-221
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:20-22
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 20-20} 
-		 group2 {atomNameResidueRange CA 22-22} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 20-20 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 22-22 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:20-20
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:56-55
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG 56-56} 
-		 group2 {atomNameResidueRange CA 55-55} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG 56-56 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 55-55 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:56-56
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:23-40
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CD1 23-23} 
-		 group2 {atomNameResidueRange CE2 40-40} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD1 23-23 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CE2 40-40 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:23-23
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:23-231
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CD1 23-23} 
-		 group2 {atomNameResidueRange C 231-231} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CD1 23-23 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange C 231-231 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:23-23
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
 colvar { 
 	 name distance:54-157
-	 lowerWalls 2.0
-	 upperWalls 7.2
-
+	 lowerWall 2.0
+	 upperWall 7.2
+	 lowerWallConstant 200.0
+	 upperWallConstant 200.0
 	 distance { 
-		 group1 {atomNameResidueRange CG2 54-54} 
-		 group2 {atomNameResidueRange CA 157-157} 
+		 group1 { 
+		 psfSegID PRO
+		 atomNameResidueRange CG2 54-54 } 
+		 group2 { 
+		 psfSegID PRO
+		 atomNameResidueRange CA 157-157 } 
 		} 
 } 
-
-harmonicWalls { 
-	colvars distance:54-54
-	 lowerWallConstant 200.0 
-	 upperWallConstant 200.0 
-} 
-
