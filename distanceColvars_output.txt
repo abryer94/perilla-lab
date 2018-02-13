@@ -59,21 +59,6 @@ colvar {
 		} 
 } 
 colvar { 
-	 name distance:69-160
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CG 69-69 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange CD 160-160 } 
-		} 
-} 
-colvar { 
 	 name distance:129-130
 	 lowerWall 2.0
 	 upperWall 7.2
@@ -119,21 +104,6 @@ colvar {
 		} 
 } 
 colvar { 
-	 name distance:89-172
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CA 89-89 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange C 172-172 } 
-		} 
-} 
-colvar { 
 	 name distance:91-8
 	 lowerWall 2.0
 	 upperWall 7.2
@@ -164,21 +134,6 @@ colvar {
 		} 
 } 
 colvar { 
-	 name distance:96-97
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CG 96-96 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange CD 97-97 } 
-		} 
-} 
-colvar { 
 	 name distance:202-85
 	 lowerWall 2.0
 	 upperWall 7.2
@@ -191,21 +146,6 @@ colvar {
 		 group2 { 
 		 psfSegID PRO
 		 atomNameResidueRange CD 85-85 } 
-		} 
-} 
-colvar { 
-	 name distance:220-69
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CA 220-220 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange C 69-69 } 
 		} 
 } 
 colvar { 
@@ -269,21 +209,6 @@ colvar {
 		} 
 } 
 colvar { 
-	 name distance:73-32
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CB 73-73 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange CA 32-32 } 
-		} 
-} 
-colvar { 
 	 name distance:142-106
 	 lowerWall 2.0
 	 upperWall 7.2
@@ -296,21 +221,6 @@ colvar {
 		 group2 { 
 		 psfSegID PRO
 		 atomNameResidueRange CA 106-106 } 
-		} 
-} 
-colvar { 
-	 name distance:85-172
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CD 85-85 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange C 172-172 } 
 		} 
 } 
 colvar { 
@@ -356,21 +266,6 @@ colvar {
 		 group2 { 
 		 psfSegID PRO
 		 atomNameResidueRange CA 38-38 } 
-		} 
-} 
-colvar { 
-	 name distance:46-20
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CA 46-46 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange C 20-20 } 
 		} 
 } 
 colvar { 
@@ -479,21 +374,6 @@ colvar {
 		} 
 } 
 colvar { 
-	 name distance:20-22
-	 lowerWall 2.0
-	 upperWall 7.2
-	 lowerWallConstant 200.0
-	 upperWallConstant 200.0
-	 distance { 
-		 group1 { 
-		 psfSegID PRO
-		 atomNameResidueRange CG 20-20 } 
-		 group2 { 
-		 psfSegID PRO
-		 atomNameResidueRange CA 22-22 } 
-		} 
-} 
-colvar { 
 	 name distance:56-55
 	 lowerWall 2.0
 	 upperWall 7.2
@@ -524,7 +404,7 @@ colvar {
 		} 
 } 
 colvar { 
-	 name distance:23-231
+	 name distance:54-157
 	 lowerWall 2.0
 	 upperWall 7.2
 	 lowerWallConstant 200.0
@@ -532,10 +412,10 @@ colvar {
 	 distance { 
 		 group1 { 
 		 psfSegID PRO
-		 atomNameResidueRange CD1 23-23 } 
+		 atomNameResidueRange CG2 54-54 } 
 		 group2 { 
 		 psfSegID PRO
-		 atomNameResidueRange C 231-231 } 
+		 atomNameResidueRange CA 157-157 } 
 		} 
 } 
 colvar { 
