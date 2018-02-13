@@ -23,30 +23,32 @@ set k 200.0
 
 while { [gets $input line] != -1 } {
 	if { [string range $line 0 5] == "assign" } {
-		set resid1 [lindex $line 2]
-		set atmname1 [lindex $line 5]
-		set resid2 [lindex $line 8]
-		set atmname2 [lindex $line 11]
+		gets $input newline
+		if { [string range $newline 0 5] == "assign || $newline != -1 } {
+			set resid1 [lindex $line 2]
+			set atmname1 [lindex $line 5]
+			set resid2 [lindex $line 8]
+			set atmname2 [lindex $line 11]
 	
-		#bounds
-		set lower [format %.1f [expr [lindex $line 13] - [lindex $line 14]]]
-		set upper [format %.1f [expr [lindex $line 13] + [lindex $line 15]]]
+			#bounds
+			set lower [format %.1f [expr [lindex $line 13] - [lindex $line 14]]]
+			set upper [format %.1f [expr [lindex $line 13] + [lindex $line 15]]]
 
-		puts $output "colvar { " 
-		puts $output "\t name distance:$resid1-$resid2"
-		puts $output "\t lowerWall $lower"
-		puts $output "\t upperWall $upper"
-		puts $output "\t lowerWallConstant $k"
-		puts $output "\t upperWallConstant $k"
-		puts $output "\t distance { "
-		puts $output "\t\t group1 { "
-		puts $output "\t\t psfSegID $psfSegID"
-		puts $output "\t\t atomNameResidueRange $atmname1 $resid1-$resid1 } "
-		puts $output "\t\t group2 { "
-		puts $output "\t\t psfSegID $psfSegID"
-		puts $output "\t\t atomNameResidueRange $atmname2 $resid2-$resid2 } "
-		puts $output "\t\t} "
-		puts $output "} "
+			puts $output "colvar { " 
+			puts $output "\t name distance:$resid1-$resid2"
+			puts $output "\t lowerWall $lower"
+			puts $output "\t upperWall $upper"
+			puts $output "\t lowerWallConstant $k"
+			puts $output "\t upperWallConstant $k"
+			puts $output "\t distance { "
+			puts $output "\t\t group1 { "
+			puts $output "\t\t psfSegID $psfSegID"
+			puts $output "\t\t atomNameResidueRange $atmname1 $resid1-$resid1 } "
+			puts $output "\t\t group2 { "
+			puts $output "\t\t psfSegID $psfSegID"
+			puts $output "\t\t atomNameResidueRange $atmname2 $resid2-$resid2 } "
+			puts $output "\t\t} "
+			puts $output "} "
 
 		#puts $output "\nharmonicWalls { "
 		#puts $output "\tcolvars distance:$resid1-$resid1"
@@ -56,7 +58,7 @@ while { [gets $input line] != -1 } {
 	 
 	}
 }
-
+}
 #close 
 close $input 
 close $output 
